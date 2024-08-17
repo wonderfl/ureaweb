@@ -1,0 +1,31 @@
+body {
+    margin: 10px;    
+}
+
+.title_menu {
+    margin: 10px;
+}
+.title_menu > * {
+    margin: 40px;
+}
+
+.menu_frame {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+}
+
+.homeview {
+    margin: 20px;
+}
+.homeview::child{
+    margin: 40px;
+}
+
+.marketview {
+    margin: 20px;
+}
+
+.marketview::child{
+    margin: 40px;
+}
